@@ -1,3 +1,5 @@
+
+
 # Front-End-Domination-Create-Anything-with-Code
 
 Start with Front-End Journey with Sheryians Coding School (Front-End Domination: Create-Anything-with-Code)
@@ -1984,8 +1986,3 @@ Embarking on a journey to become a proficient frontend developer is an exciting 
 
 # Thanks to Sheryians Coding School For bringing this Course
 
-# Mentor : Harsh Sharma
-
-Happy Learning! ✨
-
-Made with ☕️ by Divyanshu Kashyap
