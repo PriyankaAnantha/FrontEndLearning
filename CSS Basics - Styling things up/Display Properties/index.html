@@ -1,4 +1,93 @@
 
+<!-- Display Properties
+ block - takes up the full width available, can have a width and height set
+  inline - only takes up as much width as necessary, can't have a width and height set
+  inline-block - takes up as much width as necessary, can have a width and height set
+  none - hides the element
+--
+position 
+absolute - element upar ut jata h into a new layer, aur uske age ka element uski position le lete h 
+relative - make parent element as a reference point for the child element. 
+            hence parent is set to relative and child is set to absolute. so child is in a new layer but it's position is relative to the parent element
+
+            fixed - element stays in the same position on the screen
+sticky - element stays in the same position on the screen until a certain point
+static - default position
+z-index - determines the order of elements on the z-axis
+          - higher z-index values are on top
+          - negative values are allowed and will be behind elements with positive values
+          - 0 is the default value
+          how to use z-index
+          .element {
+            z-index: 1;
+          }
+          .element {
+            z-index: 2;
+          }
+
+--
+Background
+
+background - shorthand property for all background properties
+
+background url - sets the background image
+code example
+background: url('image.jpg');
+
+background-size - sets the size of the background image. 
+                  when set to cover, the image will cover the entire element
+code example
+background-size: cover; // poore div ki area mh cover ho jayega image
+background-size: contain; // image poore div mh aa jayega, chahe crop ho jaye ya repeat ho jaye
+
+background-repeat - sets how the background image is repeated
+code example
+background-repeat: no-repeat; // image sirf ek hi bar aayega
+background-repeat: repeat-x; // image horizontal direction mh repeat hogi
+background-repeat: repeat-y; // image vertical direction mh repeat hogi
+background-repeat: repeat; // image dono direction mh repeat hogi
+
+
+background-position - sets the position of the background image
+when set to center, the image will be centered within the element that it is contained in
+code example
+background-position: center;
+background-position: top;
+background-position: bottom;
+
+
+
+background-color - sets the background color
+code example
+background-color: red;
+
+background: linear-gradient - sets a linear gradient as the background image
+linear gradient means ek color se dusre color pe shift hone, gradually 
+code example
+background: linear-gradient(red, blue);
+background: linear-gradient(to right, red, blue); // by default top left se start hota h. top left se start hota h aur right ke taraf badhta h
+background: linear-gradient(to right top, red, blue); // top right se start hota h aur left ke taraf badhta h
+background: linear-gradient(to right bottom, red, blue); // bottom left se start hota h aur right ke taraf badhta h
+
+linear gradient ke 3 ya 4 parts hote h
+1. direction - to right, to right top, to right bottom
+2. color 1 - red
+3. color 2 - blue
+color 3 - optional
+
+*linear gradient sirf backgroud image and background 
+*background color pe linear gradient apply nahi hota h
+
+
+
+
+background-color - sets the background color
+background-image - sets the background image
+background-repeat - sets how the background image is repeated
+background-position - sets the position of the background image
+
+
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
