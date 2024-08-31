@@ -18,6 +18,80 @@ main left to right
 
 to work in main axis, we use justify-content property - width wise
 to work in cross axis, we use align-items property - height wise 
+---
+
+psuedo elements // are used to add content before and after the element 
+how are they different from psuedo classes?
+psuedo elements are used to add content before and after the element
+psuedo classes are used to style the element based on the state of the element
+
+1. ::before // double colon is used to differentiate between psuedo elements and psuedo classes
+before and after are used to add content before and after the element
+use content property to add content to the element
+content: "hello";
+content: url('image.jpg');
+
+
+2. ::after
+3. ::first-line // first line of the element, dynamically changes with the width of the element
+
+
+
+4. ::first-letter // first letter of the element, dynamically changes with the font size of the element
+magazines use this to style the first letter of the article
+
+
+5. ::selection // to style the selected text
+::selection {
+  background-color: red;
+  color: white;
+}
+
+
+6. ::placeholder
+7. ::marker
+8. ::backdrop
+9. ::spelling-error
+10. ::grammar-error
+
+
+psuedo classes // used to style the element based on the state of the element
+
+
+1. :hover // when the mouse is over the element. can use on buttons, links, images, etc
+h1:hover {
+  color: red;
+}
+
+2. :active // when the element is clicked
+button:active {
+  background-color: red;
+}
+
+
+
+3. :focus // when the element is focused. focused means the element is selected, input field is selected and is in use, ie u r giving some input
+input:focus {
+  border: 2px solid red;
+}
+
+8. :nth-child(n) // to select the nth child of the parent container
+ul li:nth-child(2) {
+  color: red;
+} // selects the second child of the ul element
+ // can also write 2n or 2n+1 or 2n-1 instead of 2, and it works the same way
+ 
+
+
+
+
+
+4. :visited
+5. :link
+6. :first-child
+7. :last-child
+9. :nth-of-type
+
 
 
 
@@ -45,6 +119,7 @@ to work in cross axis, we use align-items property - height wise
       <div class="three"></div>
     </div> -->
     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+    
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum
       tenetur sapiente repellendus esse necessitatibus ab quidem, laborum est
