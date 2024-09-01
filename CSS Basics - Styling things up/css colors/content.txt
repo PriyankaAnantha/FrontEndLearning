@@ -3,8 +3,8 @@ Hexadecimal Notation : #
 RGB Functional Notation : rgb
 RGBA Functional Notation : rgba
 
-hsl
-hsla
+hsl - huse saturation light 
+hsla - hue saturation light alpha 
 
 
 aisa samjha humaari screen mainly teen colors dikha sakti hai, kehne ka matlab hai screen bani khoob saari leds se and har led teen color dikha skti hai and unka combination bhi
@@ -15,9 +15,10 @@ css mein har color ki min value 0 hai or max 255
 r - 255
 g - 255
 b - 255
+a alpha- 0 fully transperant, 1 full solid 
 
-teeno full - white
-teeno low - black
+teeno full - white // 255, 255, 255 
+teeno low - black // 0 0 0 
 
 
 
